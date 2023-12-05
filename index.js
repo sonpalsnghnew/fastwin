@@ -83,13 +83,21 @@ io.on('connection', function(socket){
    });
    socket.on('newBet', function (s, t) {
 
-//        const connectiona = mysql.createConnection({
+       const connectiona = mysql.createConnection({
         host: '216.10.241.6',
         user: 'mmudrcsc_sonpal',
         password: 'wElcom@2012',
         database: 'mmudrcsc_fastwin'
         });
-       // const connection = mysql.createPool({
+
+//	        const connectionb = mysql.createConnection({
+ //       host: process.env.host,
+  //      user: process.env.user,
+   //     password: process.env.password,
+    //    database: process.env.database
+        });
+
+	// const connection = mysql.createPool({
         //  host: '216.10.241.6',
          // user: 'mmudrcsc_sonpal',
         //  password: 'wElcom@2012',
