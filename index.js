@@ -84,19 +84,19 @@ io.on('connection', function(socket){
    socket.on('newBet', function (s, t) {
 
 //        const connectiona = mysql.createConnection({
-       // host: '216.10.241.6',
-       // user: 'mmudrcsc_sonpal',
-       // password: 'wElcom@2012',
-       // database: 'mmudrcsc_fastwin'
-       // });
-        const connection = mysql.createPool({
-          host: '216.10.241.6',
-          user: 'mmudrcsc_sonpal',
-          password: 'wElcom@2012',
-          database: 'mmudrcsc_fastwin',
+        host: '216.10.241.6',
+        user: 'mmudrcsc_sonpal',
+        password: 'wElcom@2012',
+        database: 'mmudrcsc_fastwin'
+        });
+       // const connection = mysql.createPool({
+        //  host: '216.10.241.6',
+         // user: 'mmudrcsc_sonpal',
+        //  password: 'wElcom@2012',
+         /// database: 'mmudrcsc_fastwin',
           //port: '3306'
       
-      });
+     // });
            
        //max = 0.09;
        
